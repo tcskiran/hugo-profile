@@ -1,6 +1,6 @@
 baseURL: 'https://hugo-profile.netlify.app'
 languageCode: 'en-us'
-title: 'xxxyyyyKiran Tammana'
+title: 'Kiran Tammana'
 theme: hugo-profile
 
 outputs:
@@ -27,7 +27,7 @@ Menus:
     - identifier: blog
       name: Blog
       title: Blog posts
-      url: /blogs
+      url: https://medium.com/@tcskiran
       weight: 1
     - identifier: gallery
       name: Gallery
@@ -118,7 +118,7 @@ params:
   hero:
     enable: true
     intro: 'Hi, my name is'
-    title: 'zzzyyyxxxxKiran Tammana.'
+    title: 'Kiran Tammana.'
     subtitle: 'I build things for the web'
     content: 'A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly.'
     image: /images/hero.svg
@@ -392,6 +392,10 @@ params:
 
 googleAnalytics:
 disqusShortname:
+
+googleAnalytics:  
+disqusShortname:  
+
 
 googleAnalytics:  
 disqusShortname:  
