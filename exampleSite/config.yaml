@@ -1,4 +1,4 @@
-baseURL: 'https://hugo-profile.netlify.app'
+baseURL: 'https://meek-nasturtium-f31caa.netlify.app/'
 languageCode: 'en-us'
 title: 'Kiran Tammana'
 theme: hugo-profile
@@ -103,7 +103,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: 'Hugo Profile' # Brand name for the brand | default is the title variable
+    brandName: 'Kiran Tammana' # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
