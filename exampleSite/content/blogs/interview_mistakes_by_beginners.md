@@ -1,7 +1,17 @@
+---
+title: 'Interview Mistakes Of Beginners'
+date: 2022-08-18T14:00:00+05:30
+draft: false
+author: 'Kiran Tammana'
+tags:
+  - Interview
+  - Software Development
+image: /images/interview_mistakes_of_beginners.webp
+description: ''
+toc:
+---
 
 # Interview Mistakes Of Beginners
-
-
 
 To everyone applying for an internship/job, it takes time, and you can face some defeat but don’t give up. Amazon recruited me for an internship after three interviews, attempting more than 30 exams, and applying for more than 70 roles in various companies.
 
@@ -23,7 +33,7 @@ In most colleges, the shortlist for interviews comes at night, and everyone will
 
 Try to greet the interviewer when the interview starts, something like “How are you doing?”, “Thank you for taking your time for this interview,” showing gratitude to them. The interviewer might have done so many interviews since that day. They would feel a change of pace from the monotonous responses from other interviewees.
 
-![Not like this!!!](https://cdn-images-1.medium.com/max/2000/1*CEkYqAGawePMU37eyZH_gg.gif)*Not like this!!!*
+![Not like this!!!](https://cdn-images-1.medium.com/max/2000/1*CEkYqAGawePMU37eyZH_gg.gif)_Not like this!!!_
 
 **Never sell yourself short**
 
