@@ -1,3 +1,18 @@
+---
+title: 'Data Security'
+date: 2023-03-09T14:00:00+05:30
+draft: false
+author: 'Kiran Tammana'
+tags:
+  - Software Development
+  - Hashing
+  - Encryption
+  - Tokenization
+  - Cryptography
+image: /images/data_security.png
+description: ''
+toc:
+---
 
 # Data security
 
@@ -7,7 +22,7 @@ There are many ways in cryptography to secure data. In this blog, we aim to deco
 
 ### Masking
 
-Data masking is a method in which we try to hide sensitive data by replacing it with fake but similar data values like phone numbers (87****35) and email(x*****q@gmail.com).
+Data masking is a method in which we try to hide sensitive data by replacing it with fake but similar data values like phone numbers (87\***\*35) and email(x\*\*\***q@gmail.com).
 
 You are trying to show the users bits of their data without revealing the actual values.
 
@@ -19,7 +34,7 @@ Tokenization is the method in which we generate a unique random token(string) an
 
 Data in the token vault is often encrypted. In the below example, it is stored as plain text.
 
-![Reference: [tokenization](https://www.youtube.com/watch?v=QuMCvkqZbCQ)](https://cdn-images-1.medium.com/max/2000/1*CJkrxrrd6wpR4gnnu1WJ_w.png)*Reference: [tokenization](https://www.youtube.com/watch?v=QuMCvkqZbCQ)*
+![Reference: [tokenization](https://www.youtube.com/watch?v=QuMCvkqZbCQ)](https://cdn-images-1.medium.com/max/2000/1*CJkrxrrd6wpR4gnnu1WJ_w.png)_Reference: [tokenization](https://www.youtube.com/watch?v=QuMCvkqZbCQ)_
 
 Encryption uses a mathematical method, while tokenization does not use any such thing. We will learn about encryption in the following sections.
 
@@ -31,7 +46,7 @@ Examples are converting string to JSON and JSON to string when data is being sen
 
 From now on, we will discuss some commonly heard terms, hashing and encryption. I felt both serve the same purpose but later learned that’s not the case. Hashing and encryption are very similar, but they are not the same.
 
-![seeing hashing and encryption](https://cdn-images-1.medium.com/max/2560/1*C05fxFtRj00GNl0iuqQyDw.png)*seeing hashing and encryption*
+![seeing hashing and encryption](https://cdn-images-1.medium.com/max/2560/1*C05fxFtRj00GNl0iuqQyDw.png)_seeing hashing and encryption_
 
 We use encryption for transmitting data, whereas hashing is primarily used in securely storing passwords.
 
@@ -51,7 +66,7 @@ A two-way function that takes in plaintext data and turns it into undecipherable
 
 We use a public key to encrypt the data and a private key to decrypt the data. Only the user with a private key can revert it to its original form.
 
-![Reference: [encryption](https://www.researchgate.net/figure/Different-keys-are-used-to-encrypt-and-decrypt-message_fig2_304290938)](https://cdn-images-1.medium.com/max/2000/1*zfj704P2gDJc4SxRmPwCVw.gif)*Reference: [encryption](https://www.researchgate.net/figure/Different-keys-are-used-to-encrypt-and-decrypt-message_fig2_304290938)*
+![Reference: [encryption](https://www.researchgate.net/figure/Different-keys-are-used-to-encrypt-and-decrypt-message_fig2_304290938)](https://cdn-images-1.medium.com/max/2000/1*zfj704P2gDJc4SxRmPwCVw.gif)_Reference: [encryption](https://www.researchgate.net/figure/Different-keys-are-used-to-encrypt-and-decrypt-message_fig2_304290938)_
 
 Encryption is commonly used in online banking, e-commerce, and secure messaging applications to protect sensitive information from being compromised during transmission.
 
@@ -67,11 +82,11 @@ Some examples are AES, RC4, DES, RSA, ECDSA, etc.
 
 **Why is encryption not used for storing passwords?**
 
-* People designed hashing algorithms specifically for storing passwords. They include various methods like salting and key stretching to make them resistant to attacks, making them more secure for password storage than general-purpose encryption algorithms.
+- People designed hashing algorithms specifically for storing passwords. They include various methods like salting and key stretching to make them resistant to attacks, making them more secure for password storage than general-purpose encryption algorithms.
 
-* If an attacker can get the decryption keys, they can extract all passwords in plain text without effort.
+- If an attacker can get the decryption keys, they can extract all passwords in plain text without effort.
 
-* Hashing is faster than encryption. Hashing is necessary for every user login. Hence it is better to use something fast.
+- Hashing is faster than encryption. Hashing is necessary for every user login. Hence it is better to use something fast.
 
 **How to prevent attacks on hashing?
 **Always use slow hashes. Slow hashes take more time to hash a password, so attackers take more time to hash a given password; hence, they will get fewer hashed passwords in a given time.
@@ -96,7 +111,7 @@ A dictionary attack is an attack that contains all the common/well-known passwor
 **Can we prevent attacks if we use many rounds in hashing?
 **The time to hash a password will exponentially increase if we increase the rounds.
 
-*Bcryptjs is used to get the below data.*
+_Bcryptjs is used to get the below data._
 
 Number of rounds => 5
 Time taken => 14 ms
