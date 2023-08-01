@@ -291,10 +291,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Stock Exchange
-        content: |-
-          A web app showing how the stock values varies.
-          - It is build so that stocks of a virtual company can be sold/bought for limit/market order.
-          - It also shows the graph of stocks in real time.
+        content: A web app showing how the stock values varies. It is build so that stocks of a virtual company can be sold/bought for limit/market order. It also shows the graph of stocks in real time.
         image: /images/projects/profile.png
         featured:
           name: Code
