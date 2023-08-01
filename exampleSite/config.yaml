@@ -290,50 +290,48 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: Stock Exchange
+        content: |-
+          A web app showing how the stock values varies.
+          - It is build so that stocks of a virtual company can be sold/bought for limit/market order.
+          - It also shows the graph of stocks in real time.
         image: /images/projects/profile.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Code
+          link: https://github.com/tcskiran/kodeinkgp
         badges:
-          - 'Hugo'
-          - 'Bootstrap'
-          - 'Javascript'
+          - 'Nodejs'
+          - 'React'
+          - 'Websocket'
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/tcskiran/kodeinkgp
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: Refer and Earn
+        content: An app where you get points for every new device signin using your referral
         image: /images/projects/converter.jpg
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://refernearn2022.netlify.app/login
         badges:
-          - 'Django'
-          - 'Bootstrap'
+          - 'Nodejs'
+          - 'React'
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/tcskiran/webknight-2022
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: House Marketplace
+        content: A website where you can post any houses you want to rent/sell.
         image: /images/projects/profile2.jpg
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Demo
+          link: https://house-marketplace-app-tcskiran.vercel.app/
         badges:
-          - 'Hugo'
-          - 'Bootstrap'
-          - 'Javascript'
+          - 'Firebase'
+          - 'React'
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/tcskiran/house-marketplace-app
 
   #Contact
   contact:
