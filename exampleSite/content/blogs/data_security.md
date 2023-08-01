@@ -9,7 +9,7 @@ tags:
   - Encryption
   - Tokenization
   - Cryptography
-image: /images/data_security.png
+image: /images/data_security.webp
 description: ''
 toc:
 ---
@@ -74,11 +74,13 @@ Some examples are AES, RC4, DES, RSA, ECDSA, etc.
 
 ## Frequently asked questions
 
-**How to decide whether to use encryption or tokenization?
-**People use tokenization when unsure if they can defend themselves against an attacker. Having no data is better than having data that you cannot secure. Tokenization is also centralizing the risk. You can go to a third party and request a token vault there. If this token vault breaches, the stakes are much higher, so you might have to consider those things when deciding.
+**How to decide whether to use encryption or tokenization?**
 
-**Why is hashing not used in transmitting data?
-**We cannot use hashing on transmitted data because we must get the original data again after the transmission. Hence encryption is used.
+People use tokenization when unsure if they can defend themselves against an attacker. Having no data is better than having data that you cannot secure. Tokenization is also centralizing the risk. You can go to a third party and request a token vault there. If this token vault breaches, the stakes are much higher, so you might have to consider those things when deciding.
+
+**Why is hashing not used in transmitting data?**
+
+We cannot use hashing on transmitted data because we must get the original data again after the transmission. Hence encryption is used.
 
 **Why is encryption not used for storing passwords?**
 
@@ -88,8 +90,9 @@ Some examples are AES, RC4, DES, RSA, ECDSA, etc.
 
 - Hashing is faster than encryption. Hashing is necessary for every user login. Hence it is better to use something fast.
 
-**How to prevent attacks on hashing?
-**Always use slow hashes. Slow hashes take more time to hash a password, so attackers take more time to hash a given password; hence, they will get fewer hashed passwords in a given time.
+**How to prevent attacks on hashing?**
+
+Always use slow hashes. Slow hashes take more time to hash a password, so attackers take more time to hash a given password; hence, they will get fewer hashed passwords in a given time.
 
 ## More about hashing
 
@@ -103,38 +106,40 @@ Normal: Hash = hash_function(password)
 Salting: Hash = salt + hash_function(salt + password)
 Salted hash has a format like $x$y$z, x is the hash algorithm identifier(Ex: 2,2a,2b), and y is the cost/rounds. First, 22 letters of z consist of salt, and the remaining part contains the hashed password using that salt
 
-**Types of attacks on hashing
-**The rainbow table is an attack that contains all the precomputed hash values of some typical/famous passwords. It is not effective when salted hashes are used.
+**Types of attacks on hashing**
+
+The rainbow table is an attack that contains all the precomputed hash values of some typical/famous passwords. It is not effective when salted hashes are used.
 
 A dictionary attack is an attack that contains all the common/well-known passwords. A dictionary attack is only ineffective when people do not expect user passwords. When people use a random salt, a dictionary attack takes longer to crack the password.
 
-**Can we prevent attacks if we use many rounds in hashing?
-**The time to hash a password will exponentially increase if we increase the rounds.
+**Can we prevent attacks if we use many rounds in hashing?**
+
+The time to hash a password will exponentially increase if we increase the rounds.
 
 _Bcryptjs is used to get the below data._
 
-Number of rounds => 5
-Time taken => 14 ms
-Password => qwerty123
-Salt => $2a$05$wzcDCX6/PYgWBE/dLLOVn.
+Number of rounds => 5\
+Time taken => 14 ms\
+Password => qwerty123\
+Salt => $2a$05$wzcDCX6/PYgWBE/dLLOVn.\
 HashedPassword => $2a$05$wzcDCX6/PYgWBE/dLLOVn.EiqO5B.gNPEocIfGijaEXKwKdFyMVC.
 
-Number of rounds => 10
-Time taken => 79 ms
-Password => qwerty123
-Salt => $2a$10$oBUdFdQ3IWBFDG6Tz7yX8e
+Number of rounds => 10\
+Time taken => 79 ms\
+Password => qwerty123\
+Salt => $2a$10$oBUdFdQ3IWBFDG6Tz7yX8e\
 HashedPassword => $2a$10$oBUdFdQ3IWBFDG6Tz7yX8eQ7Lq9OolZsTNXVnmG/zQsoer7l7qEgC
 
-Number of rounds => 20
-Time taken => 65876 ms
-Password => qwerty123
-Salt => $2a$20$qZwROSSUbrnr6ribOz7YCe
+Number of rounds => 20\
+Time taken => 65876 ms\
+Password => qwerty123\
+Salt => $2a$20$qZwROSSUbrnr6ribOz7YCe\
 HashedPassword => $2a$20$qZwROSSUbrnr6ribOz7YCeEyAK7NS.YrWYAFL/www8buIkQe3prNC
 
-Number of rounds => 20
-Time taken => 65876 ms
-Password => qwerty123
-Salt => $2a$20$qZwROSSUbrnr6ribOz7YCe
+Number of rounds => 20\
+Time taken => 65876 ms\
+Password => qwerty123\
+Salt => $2a$20$qZwROSSUbrnr6ribOz7YCe\
 HashedPassword => $2a$20$qZwROSSUbrnr6ribOz7YCeEyAK7NS.YrWYAFL/www8buIkQe3prNC
 
 With Bcrypt, we get several rounds for the hashing, so if I increase the number of rounds from 6 to 16, it is over 1,000 times more difficult to crack. If I increase it to 31, it is over **33 million times** more difficult (2²⁵).
