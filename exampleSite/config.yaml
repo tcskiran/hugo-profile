@@ -134,12 +134,11 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/tcskiran
         - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: 'https://example.com'
+          url: https://twitter.com/tcskiran
+        - icon: fab fa-medium
+          url: https://medium.com/@tcskiran
 
   # About
   about:
@@ -359,11 +358,12 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/tcskiran
+      linkedin: https://www.linkedin.com/in/tcskiran/
+      twitter: https://twitter.com/tcskiran
+      instagram: https://www.instagram.com/tcskiran/
+      facebook: https://www.facebook.com/tcs.kiran
+      medium: https://medium.com/@tcskiran
 
   # List pages like blogs and posts
   listPages:
