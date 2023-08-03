@@ -121,7 +121,7 @@ params:
     title: 'Kiran Tammana.'
     subtitle: 'I build things for the web'
     content: 'A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly.'
-    image: /images/hero.svg
+    image: /images/man_icon.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -144,7 +144,7 @@ params:
   about:
     enable: true
     title: 'About Me'
-    image: '/images/me.png'
+    image: '/images/me.jpg'
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics. I have recently completed my internship at [Amazon](https://www.amazon.in/) in Bengaluru, India. 
 
@@ -293,7 +293,7 @@ params:
     items:
       - title: Stock Exchange
         content: A web app showing how the stock values varies. It is build so that stocks of a virtual company can be sold/bought for limit/market order. It also shows the graph of stocks in real time.
-        image: /images/projects/profile.png
+        image: /images/projects/stocks.jpg
         featured:
           name: Code
           link: https://github.com/tcskiran/kodeinkgp
@@ -307,7 +307,7 @@ params:
 
       - title: Refer and Earn
         content: An app where you get points for every new device signin using your referral
-        image: /images/projects/converter.jpg
+        image: /images/projects/refer.png
         featured:
           name: Demo
           link: https://refernearn2022.netlify.app/login
@@ -320,7 +320,7 @@ params:
 
       - title: House Marketplace
         content: A website where you can post any houses you want to rent/sell.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/house-marketplace.png
         featured:
           name: Demo
           link: https://house-marketplace-app-tcskiran.vercel.app/
