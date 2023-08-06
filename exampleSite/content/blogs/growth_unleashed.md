@@ -13,8 +13,6 @@ toc:
 
 # Growth Unleashed: How Internship Shaped Me Personally and Professionally
 
-![Reference](https://miro.medium.com/v2/resize:fit:720/format:webp/1*lqTs_WjIjCRB_ZA8MOlHnQ.jpeg)_[Reference](https://economictimes.indiatimes.com/jobs/fresher/emerging-specialisations-for-careers-in-corporate-law/articleshow/102444003.cms)_
-
 The first internship is a pivotal moment in one’s career, providing a unique opportunity to delve into the inner workings of a company on a corporate level. Having completed my enriching 2-month internship at Amazon, I emerged with valuable insights into various aspects of the company’s operations. Join me as I share the key lessons that have shaped me both personally and professionally during this transformative experience.
 
 ### Embrace the First-Day Jitters
